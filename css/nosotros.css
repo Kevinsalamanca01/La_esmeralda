@@ -1,0 +1,36 @@
+
+.flex-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1000px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.flex-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.flex-container p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+    flex: 2;
+    text-align: right;
+}
+
+.flex-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
